@@ -1,0 +1,191 @@
+.div{
+    background-color: #004AAD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+
+}
+.div img{
+    height: 100px;
+    padding: 10px;
+
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.divinha img{
+    width: 100%;
+}
+
+.divona{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+
+}
+
+.divonaco{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 13px;
+}
+
+.pdivonaco{
+    background-color: #E6E6E6;
+    padding: 10px;
+}
+
+
+.divonassa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.solicitar{
+    background-color: #004AAD;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form{
+    padding: 30px 50px;
+    /*box-shadow: 0px 0px 10px;*/
+}
+
+.form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input{
+    width: 50%;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: inherit;
+}
+
+.btn{
+    background-color: #FFB23F;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #9D9C9A;
+}
+
+.fotter{
+    background-color: #FFB23F;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.fotter img{
+    height: 50px;
+    padding: 10px;
+
+}
+
+h3{
+    font-size: 23px;
+}
+
+.borda{
+    width: 300px;
+    border-radius: 15px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.batom{
+    background-color: #FFB23F;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.batom:hover{
+    background-color: #9D9C9A;
+}
+
+.orca{
+    background-color: #FFB23F;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.orca:hover{
+    background-color: #9D9C9A;
+}
+
+.nave{
+    background-color: #004AAD;
+    padding: 2px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.nave:hover{
+    background-color: #9D9C9A;
+}
+
+@media (max-width: 960px) {
+    .divona, .divonaco, .divonassa{
+        display: block;
+        margin: 10px;
+    }
+    
+}
+@media (max-width: 851px) {
+    .div{
+        display: block;
+    }
+}
+
+@media (max-width: 649px) {
+    .div{
+        display: block;
+    }
+}
+
+@media (max-width: 658px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 628px) {
+    .orca{
+        display: block;
+    }
+}
+
+
+
+
